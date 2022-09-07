@@ -8,6 +8,7 @@
 /* ====================================
 // reset rules
 // ==================================== */
+/*'Roboto', sans-serif*/
 
 * {
   box-sizing: border-box;
@@ -23,6 +24,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  max-width: 414px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
 
   font-size: 1rem;
   line-height: 1.5rem;
@@ -42,3 +46,62 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+header nav {
+  font-size: 16px;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 53px;
+  padding-left: 9px;
+  word-spacing: 16px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+  padding-left: 9px;
+  padding-bottom: 10px;
+}
+
+.location {
+  font-size: 16px;
+  padding-left: 9px;
+  padding-bottom: 47px;
+}
+
+.modules {
+  font-size: 12px;
+  padding-left: 9px;
+  line-height: 1.2;
+  padding-bottom: 18px;
+}
+
+.structure {
+  font-size: 12px;
+  padding-left: 9px;
+  line-height: 1.2;
+  padding-bottom: 18px;
+}
+
+.photography {
+  font-size: 12px;
+  padding-left: 9px;
+  line-height: 1.2;
+  padding-bottom: 18px;
+}
+
+.second {
+  font-size: 12px;
+  padding-left: 9px;
+  line-height: 1.2;
+  padding-bottom: 18px;
+}
+
+.first-text {
+  font-size: 16px;
+  padding-top: 54px;
+}
